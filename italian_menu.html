@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Italian Recipes</title>
+  <link rel="stylesheet" href="italian.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">
+        <h1><i>Italian Food Recipes</i></h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="italian_home.html">Home</a></li> <!-- Updated link -->
+        <li><a href="#top">Top</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <main id="top">
+    <!-- Categories Section -->
+    <section class="categories">
+      <h2>Popular Categories</h2>
+      <div class="category-list">
+        <div class="category-item" onclick="filterCategory('Pizza')">
+          <img src="Italian_Img/Pizza.jpg" alt="Pizza">
+          <p>Pizza</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Pasta')">
+          <img src="Italian_Img/Pasta.jpg" alt="Pasta">
+          <p>Pasta</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Risotto')">
+          <img src="Italian_Img/Risotto.jpg" alt="Risotto">
+          <p>Risotto</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Lasagna')">
+          <img src="Italian_Img/Lasagna.jpg" alt="Lasagna">
+          <p>Lasagna</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Ravioli')">
+          <img src="Italian_Img/Ravioli.jpg" alt="Ravioli">
+          <p>Ravioli</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Tiramisu')">
+          <img src="Italian_Img/Tiramisu.jpeg" alt="Tiramisu">
+          <p>Tiramisu</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Gelato')">
+          <img src="Italian_Img/Gelato.JPG" alt="Gelato">
+          <p>Gelato</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Prosciutto')">
+          <img src="Italian_Img/Prosciutto.jpg" alt="Prosciutto">
+          <p>Prosciutto</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Bruschetta')">
+          <img src="Italian_Img/Bruschetta.jpg" alt="Bruschetta">
+          <p>Bruschetta</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Cannoli')">
+          <img src="Italian_Img/Cannoli.jpg" alt="Cannoli">
+          <p>Cannoli</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Gnocchi')">
+          <img src="Italian_Img/Gnocchi.jpg" alt="Gnocchi">
+          <p>Gnocchi</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Arancini')">
+          <img src="Italian_Img/Arancini.jpg" alt="Arancini">
+          <p>Arancini</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Caprese_Salad')">
+          <img src="Italian_Img/Caprese_Salad.jpg" alt="Caprese_Salad">
+          <p>Caprese Salad</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Focaccia')">
+          <img src="Italian_Img/Focaccia.jpeg" alt="Focaccia">
+          <p>Focaccia</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Ossobuco')">
+          <img src="Italian_Img/Ossobuco.jpg" alt="Ossobuco">
+          <p>Ossobuco</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Panna_Cotta')">
+          <img src="Italian_Img/Panna_Cotta.jpg" alt="Panna_Cotta">
+          <p>Panna Cotta</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Eggplant_Parmesan')">
+          <img src="Italian_Img/Eggplant_Parmesan.jpeg" alt="Eggplant_Parmesan">
+          <p>Eggplant_Parmesan</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Polenta')">
+          <img src="Italian_Img/Polenta.jpg" alt="Polenta">
+          <p>Polenta</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Minestrone')">
+          <img src="Italian_Img/Minestrone.jpg" alt="Minestrone">
+          <p>Minestrone</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Ciabatta')">
+          <img src="Italian_Img/Ciabatta.jpg" alt="Ciabatta">
+          <p>Ciabatta</p>
+        </div>
+
+        <div class="category-item" onclick="filterCategory('Saltimbocca')">
+          <img src="Italian_Img/Saltimbocca.jpg" alt="Saltimbocca">
+          <p>Saltimbocca</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Selected Recipe -->
+    <h2>Selected Recipe</h2><br>
+    <section class="selected-recipe" id="selected-recipe" style="display: none;">
+      <div class="recipe-content"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <center>
+    <p>&copy; Italian Food Recipes.By Hema Harsan R</p>
+    </center>
+  </footer>
+
+  <script src="italian.js"></script>
+
+</body>
+</html>
