@@ -1536,6 +1536,14 @@ const recipes = {
   `,
 };
 
+// Redirect to the home page if it's not the current page
+window.onload = function () {
+  if (window.location.pathname !== "/italian_home.html") {
+    window.location.href = "italian_home.html";
+  }
+};
+
+
 function filterCategory(category) {
   const selectedRecipeSection = document.getElementById('selected-recipe');
   const recipeContent = selectedRecipeSection.querySelector('.recipe-content');
